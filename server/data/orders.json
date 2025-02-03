@@ -1,0 +1,546 @@
+[
+  {
+    "id": 1,
+    "date": "2023-01-05T10:00:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 101,
+        "name": "Chytrý phone XYZ",
+        "price": 8999,
+        "count": 1
+      },
+      {
+        "id": 102,
+        "name": "Ochranné sklo",
+        "price": 299,
+        "count": 2
+      }
+    ],
+    "customer": {
+      "id": 1,
+      "email": "customer1@example.com",
+      "phone": "+420123456789",
+      "address": "Street 123, City, Czech Republic"
+    }
+  },
+  {
+    "id": 2,
+    "date": "2023-01-15T14:30:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 103,
+        "name": "Nabíječka USB-C",
+        "price": 499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 2,
+      "email": "customer2@example.com",
+      "phone": "+420987654321",
+      "address": "Street 456, City, Czech Republic"
+    }
+  },
+  {
+    "id": 3,
+    "date": "2023-02-01T09:15:00Z",
+    "status": "čeká na platbu",
+    "items": [
+      {
+        "id": 104,
+        "name": "Sluchátka bezdrátová",
+        "price": 1299,
+        "count": 1
+      },
+      {
+        "id": 105,
+        "name": "Powerbank 20000mAh",
+        "price": 799,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 3,
+      "email": "customer3@example.com",
+      "phone": "+420112233445",
+      "address": "Street 789, City, Czech Republic"
+    }
+  },
+  {
+    "id": 4,
+    "date": "2023-02-10T16:45:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 106,
+        "name": "Tablet ABC",
+        "price": 5999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 4,
+      "email": "customer4@example.com",
+      "phone": "+420667788990",
+      "address": "Street 321, City, Czech Republic"
+    }
+  },
+  {
+    "id": 5,
+    "date": "2023-03-01T12:00:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 107,
+        "name": "Myš bezdrátová",
+        "price": 399,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 5,
+      "email": "customer5@example.com",
+      "phone": "+420223344556",
+      "address": "Street 654, City, Czech Republic"
+    }
+  },
+  {
+    "id": 6,
+    "date": "2023-03-15T11:30:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 108,
+        "name": "Klávesnice mechanická",
+        "price": 1499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 6,
+      "email": "customer6@example.com",
+      "phone": "+420334455667",
+      "address": "Street 987, City, Czech Republic"
+    }
+  },
+  {
+    "id": 7,
+    "date": "2023-04-01T08:45:00Z",
+    "status": "čeká na platbu",
+    "items": [
+      {
+        "id": 109,
+        "name": "Monitor 24\"",
+        "price": 3999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 7,
+      "email": "customer7@example.com",
+      "phone": "+420556677889",
+      "address": "Street 234, City, Czech Republic"
+    }
+  },
+  {
+    "id": 8,
+    "date": "2023-04-10T17:00:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 110,
+        "name": "Externí disk 1TB",
+        "price": 1299,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 8,
+      "email": "customer8@example.com",
+      "phone": "+420778899001",
+      "address": "Street 543, City, Czech Republic"
+    }
+  },
+  {
+    "id": 9,
+    "date": "2023-05-05T13:20:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 111,
+        "name": "Router WiFi 6",
+        "price": 1999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 9,
+      "email": "customer9@example.com",
+      "phone": "+420889900112",
+      "address": "Street 876, City, Czech Republic"
+    }
+  },
+  {
+    "id": 10,
+    "date": "2023-05-20T09:00:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 112,
+        "name": "Webkamera Full HD",
+        "price": 899,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 10,
+      "email": "customer10@example.com",
+      "phone": "+420990011223",
+      "address": "Street 432, City, Czech Republic"
+    }
+  },
+  {
+    "id": 11,
+    "date": "2023-06-01T14:10:00Z",
+    "status": "čeká na platbu",
+    "items": [
+      {
+        "id": 113,
+        "name": "Mikrofon studiový",
+        "price": 2499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 11,
+      "email": "customer11@example.com",
+      "phone": "+420661122334",
+      "address": "Street 654, City, Czech Republic"
+    }
+  },
+  {
+    "id": 12,
+    "date": "2023-06-15T16:30:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 114,
+        "name": "Reproduktor Bluetooth",
+        "price": 1599,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 12,
+      "email": "customer12@example.com",
+      "phone": "+420444555666",
+      "address": "Street 321, City, Czech Republic"
+    }
+  },
+  {
+    "id": 13,
+    "date": "2023-07-01T10:45:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 115,
+        "name": "Televize 55\" 4K",
+        "price": 14999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 13,
+      "email": "customer13@example.com",
+      "phone": "+420334411223",
+      "address": "Street 876, City, Czech Republic"
+    }
+  },
+  {
+    "id": 14,
+    "date": "2023-07-15T12:00:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 116,
+        "name": "Herní konzole XYZ",
+        "price": 7999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 14,
+      "email": "customer14@example.com",
+      "phone": "+420123456789",
+      "address": "Street 123, City, Czech Republic"
+    }
+  },
+  {
+    "id": 15,
+    "date": "2023-08-01T09:10:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 117,
+        "name": "SSD 1TB",
+        "price": 2499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 15,
+      "email": "customer15@example.com",
+      "phone": "+420223344556",
+      "address": "Street 654, City, Czech Republic"
+    }
+  },
+  {
+    "id": 16,
+    "date": "2023-08-10T18:00:00Z",
+    "status": "čeká na platbu",
+    "items": [
+      {
+        "id": 118,
+        "name": "Raspberry Pi Kit",
+        "price": 1599,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 16,
+      "email": "customer16@example.com",
+      "phone": "+420556677889",
+      "address": "Street 234, City, Czech Republic"
+    }
+  },
+  {
+    "id": 17,
+    "date": "2023-09-01T10:00:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 119,
+        "name": "Gamepad Bluetooth",
+        "price": 899,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 17,
+      "email": "customer17@example.com",
+      "phone": "+420889900112",
+      "address": "Street 876, City, Czech Republic"
+    }
+  },
+  {
+    "id": 18,
+    "date": "2023-09-15T11:50:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 120,
+        "name": "Tiskárna laserová",
+        "price": 3499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 18,
+      "email": "customer18@example.com",
+      "phone": "+420661122334",
+      "address": "Street 654, City, Czech Republic"
+    }
+  },
+  {
+    "id": 19,
+    "date": "2023-10-01T10:30:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 121,
+        "name": "Chytrá domácnost Kit",
+        "price": 5999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 19,
+      "email": "customer19@example.com",
+      "phone": "+420334411223",
+      "address": "Street 876, City, Czech Republic"
+    }
+  },
+  {
+    "id": 20,
+    "date": "2023-10-15T15:40:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 122,
+        "name": "Sluchátka herní",
+        "price": 2499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 20,
+      "email": "customer20@example.com",
+      "phone": "+420778899001",
+      "address": "Street 543, City, Czech Republic"
+    }
+  },
+  {
+    "id": 21,
+    "date": "2023-11-01T14:20:00Z",
+    "status": "čeká na platbu",
+    "items": [
+      {
+        "id": 123,
+        "name": "Notebook 14\"",
+        "price": 14999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 21,
+      "email": "customer21@example.com",
+      "phone": "+420334455667",
+      "address": "Street 987, City, Czech Republic"
+    }
+  },
+  {
+    "id": 22,
+    "date": "2023-11-15T13:00:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 124,
+        "name": "Kamera sportovní",
+        "price": 4599,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 22,
+      "email": "customer22@example.com",
+      "phone": "+420223344556",
+      "address": "Street 654, City, Czech Republic"
+    }
+  },
+  {
+    "id": 23,
+    "date": "2023-12-01T11:40:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 125,
+        "name": "Sluchátka noise-cancelling",
+        "price": 3499,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 23,
+      "email": "customer23@example.com",
+      "phone": "+420556677889",
+      "address": "Street 234, City, Czech Republic"
+    }
+  },
+  {
+    "id": 24,
+    "date": "2023-12-10T10:10:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 126,
+        "name": "Tiskárna multifunkční",
+        "price": 2899,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 24,
+      "email": "customer24@example.com",
+      "phone": "+420889900112",
+      "address": "Street 876, City, Czech Republic"
+    }
+  },
+  {
+    "id": 25,
+    "date": "2024-01-01T08:30:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 127,
+        "name": "Chytrý hodinky",
+        "price": 3999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 25,
+      "email": "customer25@example.com",
+      "phone": "+420334411223",
+      "address": "Street 876, City, Czech Republic"
+    }
+  },
+  {
+    "id": 26,
+    "date": "2024-01-15T12:00:00Z",
+    "status": "dokončeno",
+    "items": [
+      {
+        "id": 128,
+        "name": "Smart TV 4K",
+        "price": 7999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 26,
+      "email": "customer26@example.com",
+      "phone": "+420778899001",
+      "address": "Street 543, City, Czech Republic"
+    }
+  },
+  {
+    "id": 27,
+    "date": "2024-02-01T10:00:00Z",
+    "status": "čeká na platbu",
+    "items": [
+      {
+        "id": 129,
+        "name": "Osobní váha digitální",
+        "price": 699,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 27,
+      "email": "customer27@example.com",
+      "phone": "+420112233445",
+      "address": "Street 789, City, Czech Republic"
+    }
+  },
+  {
+    "id": 28,
+    "date": "2024-02-15T11:00:00Z",
+    "status": "odesláno",
+    "items": [
+      {
+        "id": 130,
+        "name": "Herní myš",
+        "price": 999,
+        "count": 1
+      }
+    ],
+    "customer": {
+      "id": 28,
+      "email": "customer28@example.com",
+      "phone": "+420223344556",
+      "address": "Street 654, City, Czech Republic"
+    }
+  }
+]

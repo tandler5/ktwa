@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "avatar": "/assets/images/jDoe.png",
+    "email": "john.doe@example.com",
+    "password": "jDoe",
+    "phone": "+1234567890",
+    "address": "Berliner Str. 123, Berlin, Německo",
+    "country": {
+      "name": "Německo",
+      "code": "de"
+    },
+    "role": "administrator"
+  },
+  {
+    "id": 2,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "avatar": "/assets/images/jSmith.png",
+    "email": "jane.smith@example.com",
+    "phone": "+1234567891",
+    "password": "jSmith",
+    "address": "15 Rue de Rivoli, Paříž, Francie",
+    "country": {
+      "name": "Francie",
+      "code": "fr"
+    },
+    "role": "assistant"
+  },
+  {
+    "id": 3,
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "avatar": "/assets/images/aJohnson.png",
+    "email": "alice.johnson@example.com",
+    "password": "aJohnson",
+    "phone": "+1234567892",
+    "address": "Calle Gran Vía 56, Madrid, Španělsko",
+    "country": {
+      "name": "Španělsko",
+      "code": "es"
+    },
+    "role": "assistant"
+  },
+  {
+    "id": 4,
+    "firstName": "Bob",
+    "lastName": "Williams",
+    "avatar": "/assets/images/bWilliams.png",
+    "email": "bob.williams@example.com",
+    "phone": "+1234567893",
+    "password": "bWilliams",
+    "address": "Piazza del Duomo 10, Milán, Itálie",
+    "country": {
+      "name": "Itálie",
+      "code": "it"
+    },
+    "role": "assistant"
+  },
+  {
+    "id": 5,
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1234567894",
+    "password": "chBrown",
+    "address": "Damstraat 12, Amsterdam, Nizozemsko",
+    "country": {
+      "name": "Nizozemsko",
+      "code": "nl"
+    },
+    "role": "supervisor"
+  },
+  {
+    "id": 6,
+    "firstName": "David",
+    "lastName": "Davis",
+    "avatar": "/assets/images/dDavis.png",
+    "email": "david.davis@example.com",
+    "password": "dDavis",
+    "phone": "+1234567895",
+    "address": "Drottninggatan 55, Stockholm, Švédsko",
+    "country": {
+      "name": "Švédsko",
+      "code": "se"
+    },
+    "role": "supervisor"
+  },
+  {
+    "id": 7,
+    "firstName": "Eve",
+    "lastName": "Miller",
+    "avatar": "/assets/images/eMiller.png",
+    "email": "eve.miller@example.com",
+    "password": "eMiller",
+    "phone": "+1234567896",
+    "address": "Ul. Marszałkowska 32, Varšava, Polsko",
+    "country": {
+      "name": "Polsko",
+      "code": "pl"
+    },
+    "role": "assistant"
+  },
+  {
+    "id": 8,
+    "firstName": "Frank",
+    "lastName": "Wilson",
+    "password": "fWilson",
+    "email": "frank.wilson@example.com",
+    "phone": "+1234567897",
+    "address": "Avenue Louise 150, Brusel, Belgie",
+    "country": {
+      "name": "Belgie",
+      "code": "be"
+    },
+    "role": "assistant"
+  },
+  {
+    "id": 9,
+    "firstName": "Grace",
+    "lastName": "Moore",
+    "password": "gMoore",
+    "email": "grace.moore@example.com",
+    "phone": "+1234567898",
+    "address": "Kärntnertorstr. 13, Vídeň, Rakousko",
+    "country": {
+      "name": "Rakousko",
+      "code": "at"
+    },
+    "role": "assistant"
+  },
+  {
+    "id": 10,
+    "firstName": "Henry",
+    "lastName": "Taylor",
+    "password": "hTaylor",
+    "email": "henry.taylor@example.com",
+    "phone": "+1234567899",
+    "address": "Calle de Alcalá 45, Madrid, Španělsko",
+    "country": {
+      "name": "Španělsko",
+      "code": "es"
+    },
+    "role": "assistant"
+  }
+]
