@@ -62,7 +62,7 @@
       </Column>
       <Column
         field="lastName"
-        header="Přijmení"
+        header="Příjmení"
         style="min-width: 12rem">
         <template #body="{data}">
           {{ data.lastName }}
@@ -73,7 +73,7 @@
             v-model="filterModel.value"
             type="text"
             @input="filterCallback()"
-            placeholder="Vyhledat podle přijmení" />
+            placeholder="Vyhledat podle příjmení" />
         </template>
       </Column>
       <Column

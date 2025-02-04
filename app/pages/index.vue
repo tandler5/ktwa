@@ -66,6 +66,7 @@
     labels: months.value.map((m) => m.name),
     datasets: [
       {
+        label: 'Počet objednávek',
         data: months.value.map((m) => {
           return orders.value?.data?.filter((order) => {
             const orderDate = new Date(order.date)

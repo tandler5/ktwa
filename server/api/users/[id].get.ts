@@ -1,4 +1,4 @@
-import users from '@@/server/data/orders.json'
+import users from '@@/server/data/users.json'
 export default defineEventHandler(async (event) => {
   const id = getRouterParam(event, 'id')
 
