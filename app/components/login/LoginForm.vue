@@ -24,17 +24,18 @@
 
 <script setup lang="ts">
   import type {FormKitNode} from '@formkit/core'
-  import {useApi} from '~/composables/api'
   import {USER_DATA_KEY} from '~/contants'
   import type {LoginData, LoginForm} from '~/types/forms/LoginForm'
 
-  const {post} = useApi()
   const onFormSubmit = async (values: LoginForm, node: FormKitNode) => {
     const {email, password} = values
     try {
-      const res = await post<LoginData>('/login', {
-        email,
-        password,
+      const res = await $fetch<{data: LoginData}>('/api/login', {
+        method: 'POST',
+        body: {
+          email,
+          password,
+        },
       })
       if (res.data.token) {
         const authToken = useCookie('auth-token')
